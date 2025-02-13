@@ -1,0 +1,276 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #762f2f;
+    color:white;
+}
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+.logo{
+    height: 60px;
+    margin-right: 10px;
+}
+
+.marka-adı{
+    font-size:24px;
+    font-weight: bold;
+}
+.navlar-linkler{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+.navbar-linkler a {
+    color:white;
+    text-decoration: none;
+    margin-left:20px;
+    font-size:18px;
+}
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+.arama-input{
+    padding:5px;
+    font-size:16px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border:none;
+}
+.arama-buton{
+    padding: 6px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #0056b3;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    flex-direction: column;
+    background-color: #212223;
+    height: 100vh;
+    width: 100%;
+}
+
+#about {
+    background-color: #0b0c0c;
+}
+
+#products {
+    background-color: #0b0c0c;
+    display: flex;
+    gap:15px;
+    height: 100vh;
+
+}
+h1 {
+    align-self: flex-start;      
+    margin-left: 20px;  
+    color:whitesmoke;         
+  }
+  iframe {
+    width: 80%;                  
+    height: 80%;                 
+    border: none;                
+    margin-top: 20px;            
+  }
+  section .card img{
+    width: 70%;
+    height: 40%;
+    display:block;
+    border-radius:100px;
+    margin: auto;
+  }
+section .card{
+   
+    background-color: #333333;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+   
+    margin:auto;
+    margin-top:0px;
+    overflow: hidden;
+    color:white;
+    text-align: center;
+    font-family:sans-serif ;
+    font-size: 16px;
+}
+section .card .isim{
+    display: block;
+    margin-top: 16px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#youtube{
+    width: 40px;
+    height: 40px;
+}
+#instagram{
+    width: 40px;
+    height: 40px;
+    
+}
+section .card .bağlantılar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+#xlogo{
+    width: 40px;
+    height: 40px;
+    
+}
+.abone{
+   display: flex;
+    background-color: black;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+#abone{
+    color:white;
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+.mesaj{
+    display: flex;
+     background-color: black;
+     height: 100vh;
+     justify-content: center;
+     align-items: center;
+ }
+ #mesaj{
+     color:white;
+     font-family: sans-serif;
+     font-size: 30px;
+     text-align: center;
+ }
+#suscribe{
+    all:unset;
+    background-color:rgb(130, 122, 117);
+   display: block;
+   padding: 16px;
+   border-radius: 8px;
+   margin:8px;
+   cursor: pointer;
+
+}
+#text-at{
+    all:unset;
+    background-color:rgb(130, 122, 117);
+   display: block;
+   padding: 16px;
+   border-radius: 8px;
+   margin:8px;
+   cursor: pointer;
+
+}
+#simsek{
+    all:unset;
+    background-color:rgb(130, 122, 117);
+   display: block;
+   padding: 16px;
+   border-radius: 8px;
+   margin:8px;
+   cursor: pointer;
+
+}
+#sally{
+    all:unset;
+    background-color:rgb(130, 122, 117);
+   display: block;
+   padding: 16px;
+   border-radius: 8px;
+   margin:8px;
+   cursor: pointer;
+}
+.hediyelik{
+    background-color: #333333;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+   
+    margin:auto;
+    margin-top:50px;
+    overflow: hidden;
+    color:white;
+    text-align: center;
+    font-family:sans-serif ;
+    font-size: 16px;
+    
+    
+}
+#love{
+    width: 400px;
+    height:300px;
+    border-radius: 12px;
+}
+.hediyelik .lovea{
+    margin-top:8px;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+    
+}
+.hediyelik .fiyat{
+    margin-top:8px;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+#araba{
+    width: 400px;
+    height:300px;
+    border-radius: 12px;
+}
+.hediyelik .araba{
+    margin-top:8px;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+    
+}
+#pist{
+    width: 400px;
+    height:300px;
+    border-radius: 12px;
+}
+.hediyelik .yaris{
+    margin-top:8px;
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+    
+}
+.sepet{
+    background-color: black;
+    color:white;
+    font-family: sans-serif;
+    border-radius: 12px;
+    font-size:18px;
+
+}
+.sepet:hover{
+    background-color: dodgerblue;
+    color:yellow;
+}
